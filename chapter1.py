@@ -14,3 +14,11 @@ def two(t1, t2):
     for x in zip(t1, t2):
         output+= x[0] + x[1]
     return output
+
+def three(text):
+    print("03")
+    parts = text.split(" ")
+
+    # Only count letters
+    lst = [len((''.join(filter(str.isalpha, x)))) for x in parts]
+    return lst

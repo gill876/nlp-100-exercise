@@ -6,3 +6,4 @@ if __name__ == '__main__':
     print(chapter1.zero("hello world!")) # 00
     print(chapter1.one("schooled")) # 01
     print(chapter1.two("shoe", "cold")) # 02
+    print(chapter1.three("Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics")) # 03
